@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().barTintColor = .black
         UITabBar.appearance().tintColor = .white
         // Override point for customization after application launch.
-        sleep(3)
+        //sleep(3)
         preloadData()
 
         // 
