@@ -230,8 +230,6 @@
 	<string>adjective</string>
 	<key>happy</key>
 	<string>adjective</string>
-	<key>itchy</key>
-	<string>adjective</string>
 	<key>little</key>
 	<string>adjective</string>
 	<key>fit</key>
@@ -328,5 +326,31 @@
 	<string>adjective</string>
 	<key>tiny</key>
 	<string>adjective</string>
+	<key>explores</key>
+	<string>verb</string>
+	<key>describes</key>
+	<string>verb</string>
+	<key>evokes</key>
+	<string>verb</string>
+	<key>celebrates</key>
+	<string>verb</string>
+	<key>reveals</key>
+	<string>verb</string>
+	<key>laments</key>
+	<string>verb</string>
+	<key>confesses</key>
+	<string>verb</string>
+	<key>exposes</key>
+	<string>verb</string>
+	<key>challenges</key>
+	<string>verb</string>
+	<key>creates</key>
+	<string>verb</string>
+	<key>captures</key>
+	<string>verb</string>
+	<key>shines</key>
+	<string>verb</string>
+	<key>burns</key>
+	<string>verb</string>
 </dict>
 </plist>
