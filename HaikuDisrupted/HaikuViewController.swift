@@ -227,11 +227,12 @@ class HaikuViewController: UIViewController, NSFetchedResultsControllerDelegate,
             
             
             // Background Ukiyoe Image
-            let i3 = 15
+            let i3 = 22
             let num3 = Int(arc4random_uniform(UInt32(i3)))
             let num3String = String(num3)
             bgImage.image = UIImage (imageLiteralResourceName: num3String)
             haiku.alpha = 0.5
+            print("image num3: \(num3)")
             
             
             // Dsiplay today's haiku
