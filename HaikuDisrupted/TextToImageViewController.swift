@@ -14,7 +14,7 @@ class TextToImageViewController: UIViewController {
     @IBOutlet weak var imageForProcess: UIImageView!
     
     var imageToDisplay: UIImage?
-    var CGRectToProcess: CGRect?
+    //var CGRectToProcess: CGRect?
 
     var image: UIImage?
     
@@ -40,6 +40,7 @@ class TextToImageViewController: UIViewController {
 
         image = imageToDisplay
 
+        
         do {
             let activityViewController = UIActivityViewController(activityItems: [self.image], applicationActivities: nil)
             

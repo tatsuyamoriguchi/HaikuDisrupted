@@ -288,7 +288,7 @@ class HaikuViewController: UIViewController, NSFetchedResultsControllerDelegate,
         //print("1:segueID: \(segueID)")
         if segueID == "ToTTISegue" {
             destinationVC.imageToDisplay = haikuImage
-            destinationVC.CGRectToProcess = CGRectToProcess
+            //destinationVC.CGRectToProcess = CGRectToProcess
             //destinationVC.textColorType = textColorType
         }
             
@@ -371,16 +371,35 @@ class HaikuViewController: UIViewController, NSFetchedResultsControllerDelegate,
     }
 
     
-    var CGRectToProcess: CGRect?
+    //var CGRectToProcess: CGRect?
     
     @IBAction func textToImageOnPressed(_ sender: UIButton) {
         
         textColor = colorDict[(textColorLabel.titleLabel?.text)!]
         //print("textColor: \(textColor)")
         
-        let imageToProcess = bgImage.image
+        var imageToProcess = bgImage.image
         
-        CGRectToProcess = bgImage.contentClippingRect
+        //////////////////////////
+        // Check the file size
+        var count = 1
+        print("Count: \(count)")
+        var imageFileSize = TextToImage().detectImageFileSize(imageName: imageToProcess!)
+        //////////////////////////
+       
+        if imageFileSize >= 1000000 {
+            repeat  {
+                let imageSize = CGSize(width: (imageToProcess?.size.width)!, height: (imageToProcess?.size.height)!)
+                imageToProcess = TextToImage().reduceImageFileSize(image: imageToProcess!, imageSize: imageSize)
+                imageFileSize = TextToImage().detectImageFileSize(imageName: imageToProcess!)
+                count += 1
+                print("Count: \(count)")
+                
+            } while (imageFileSize >= 1000000)
+        }
+        ///////////////////////////
+            
+        //CGRectToProcess = bgImage.contentClippingRect
         
         haikuImage = TextToImage().textToImage(textColorType: textColor ?? .white, drawText: todaysHaiku ?? "ERROR No Haiku", inImage: imageToProcess!, atPoint: CGPoint(x: 10, y: 120))
         //bgImage.image = haikuImage
