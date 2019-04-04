@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jd9-ab-6fl">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,7 +23,6 @@
                                 <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="KkL-T5-wMJ"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="o9C-7B-XUh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="30"/>
                                 <state key="normal" title="Haiku Disrupted">
@@ -43,10 +42,8 @@
                                 <rect key="frame" x="35" y="783" width="120" height="30"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="7Ye-Hv-N3M"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Ggi-k9-jBz"/>
-                                    <constraint firstAttribute="width" constant="120" id="riB-om-DkD"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="yVh-DP-tX7"/>
+                                    <constraint firstAttribute="width" constant="120" id="h4E-87-NwZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="mJf-hs-hn9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="Text Color">
@@ -57,8 +54,8 @@
                                 <rect key="frame" x="259" y="783" width="120" height="30"/>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="bXJ-zD-GEp"/>
-                                    <constraint firstAttribute="width" constant="120" id="e6Z-ma-b78"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="ZbV-ws-b7A"/>
+                                    <constraint firstAttribute="width" constant="120" id="bqb-C0-fxi"/>
                                     <constraint firstAttribute="height" constant="30" id="fLG-d2-JvX"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="jYY-bG-ETT"/>
                                 </constraints>
@@ -68,36 +65,54 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haiku Disrupted &quot;Create Random Zen Moments&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYM-L9-8Gs">
-                                <rect key="frame" x="40" y="184" width="334" height="86.5"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="28"/>
+                                <rect key="frame" x="40" y="184" width="334" height="74.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Availabe at the App Store for iOS - Brought you by Becko's Inc. Irvine, California, U.S.A." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCr-h8-Wsn">
-                                <rect key="frame" x="40" y="664.5" width="334" height="98.5"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
+                                <rect key="frame" x="40" y="719" width="334" height="44"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pocke_sound_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HIQ-ZR-hLW">
+                                <rect key="frame" x="103" y="64" width="209" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="koi-color180" translatesAutoresizingMaskIntoConstraints="NO" id="apn-4A-mLD">
+                                <rect key="frame" x="149.66666666666666" y="574" width="114.99999999999997" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="MVI-f2-nqx"/>
+                                    <constraint firstAttribute="width" constant="115" id="bvf-BK-uof"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="RCr-h8-Wsn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="2CC-al-PwC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lhr-5n-imm" secondAttribute="bottom" id="7cT-cc-wCo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HIQ-ZR-hLW" secondAttribute="trailing" constant="102" id="8gC-YL-zIo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wb9-Wv-uoT" secondAttribute="trailing" constant="20" id="Abo-qb-Vf3"/>
                             <constraint firstItem="UYM-L9-8Gs" firstAttribute="top" secondItem="wb9-Wv-uoT" secondAttribute="bottom" constant="20" id="EUe-gQ-9SW"/>
-                            <constraint firstItem="RCr-h8-Wsn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Idt-CB-1Tz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lhr-5n-imm" secondAttribute="trailing" constant="35" id="GGg-yD-WtB"/>
+                            <constraint firstItem="wb9-Wv-uoT" firstAttribute="top" secondItem="HIQ-ZR-hLW" secondAttribute="bottom" constant="20" id="J4a-Dz-uWl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UYM-L9-8Gs" secondAttribute="trailing" constant="40" id="Ln2-pi-YGH"/>
-                            <constraint firstItem="Pa5-94-Chk" firstAttribute="top" secondItem="RCr-h8-Wsn" secondAttribute="bottom" constant="20" id="MAh-ZP-wHj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HKV-Qq-5Gi" secondAttribute="trailing" constant="20" id="NDV-cb-AW8"/>
                             <constraint firstItem="HKV-Qq-5Gi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="NQb-BJ-6Lc"/>
-                            <constraint firstItem="Pa5-94-Chk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="fUI-Wr-t8M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCr-h8-Wsn" secondAttribute="trailing" constant="40" id="Q7O-BO-dEk"/>
+                            <constraint firstItem="lhr-5n-imm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Qpx-BP-1Jr"/>
+                            <constraint firstItem="HIQ-ZR-hLW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="U8f-m5-wBU"/>
+                            <constraint firstItem="Pa5-94-Chk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="WXz-tu-SJc"/>
+                            <constraint firstItem="Pa5-94-Chk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="e1t-1C-Qz4"/>
                             <constraint firstItem="wb9-Wv-uoT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hbB-VP-QrT"/>
                             <constraint firstItem="UYM-L9-8Gs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="hxP-tl-cip"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCr-h8-Wsn" secondAttribute="trailing" constant="40" id="mHp-IE-M1b"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lhr-5n-imm" secondAttribute="trailing" constant="35" id="sQg-Px-vqP"/>
+                            <constraint firstItem="HIQ-ZR-hLW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tZF-8C-v0r"/>
+                            <constraint firstItem="RCr-h8-Wsn" firstAttribute="top" secondItem="apn-4A-mLD" secondAttribute="bottom" constant="30" id="uVx-TI-85Z"/>
+                            <constraint firstItem="Pa5-94-Chk" firstAttribute="top" secondItem="RCr-h8-Wsn" secondAttribute="bottom" constant="20" id="uuJ-Cy-6Mb"/>
                             <constraint firstItem="wb9-Wv-uoT" firstAttribute="top" secondItem="HKV-Qq-5Gi" secondAttribute="bottom" constant="20" id="xFg-xj-IJ6"/>
+                            <constraint firstItem="apn-4A-mLD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xTz-9L-G2F"/>
                             <constraint firstItem="HKV-Qq-5Gi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xkv-Ci-gUq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pa5-94-Chk" secondAttribute="bottom" id="zL4-hr-spE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -105,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989.85507246376824" y="374.33035714285711"/>
+            <point key="canvasLocation" x="988.125" y="373.94366197183098"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="acZ-rH-VUz">
@@ -113,6 +128,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jd9-ab-6fl" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WDA-0r-UOH">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,6 +144,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="koi-color180" width="180" height="180"/>
+        <image name="pocke_sound_logo" width="88" height="31"/>
         <image name="voices" width="30" height="30"/>
     </resources>
 </document>

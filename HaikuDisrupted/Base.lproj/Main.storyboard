@@ -56,15 +56,16 @@
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="33"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9x-OH-2uh">
-                                <rect key="frame" x="35" y="599" width="80" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="O9x-OH-2uh">
+                                <rect key="frame" x="35" y="599" width="160" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="1jC-UM-HYq"/>
+                                    <constraint firstAttribute="width" constant="160" id="1jC-UM-HYq"/>
                                     <constraint firstAttribute="height" constant="30" id="LkD-RH-QL5"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Py0-VO-a8z"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Brown">
                                     <color key="titleColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -72,15 +73,16 @@
                                     <action selector="colorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7K-ZI-HR5"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEK-lp-zq3">
-                                <rect key="frame" x="35" y="637" width="80" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jEK-lp-zq3">
+                                <rect key="frame" x="35" y="637" width="160" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="EBM-ZY-gLJ"/>
-                                    <constraint firstAttribute="width" constant="80" id="MHR-sa-JR0"/>
+                                    <constraint firstAttribute="width" constant="160" id="MHR-sa-JR0"/>
                                     <constraint firstAttribute="height" constant="30" id="TYI-oh-8M6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Light Gray">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -88,15 +90,16 @@
                                     <action selector="colorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kq0-e3-GU0"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5K-r6-3MH">
-                                <rect key="frame" x="35" y="675" width="80" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B5K-r6-3MH">
+                                <rect key="frame" x="35" y="675" width="160" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="p1o-MR-IvG"/>
-                                    <constraint firstAttribute="width" constant="80" id="pZP-wS-70G"/>
+                                    <constraint firstAttribute="width" constant="160" id="pZP-wS-70G"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="vAF-xk-7bZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Black">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -104,15 +107,16 @@
                                     <action selector="colorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmu-Ad-dUU"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXg-8T-fKg">
-                                <rect key="frame" x="35" y="713" width="80" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MXg-8T-fKg">
+                                <rect key="frame" x="35" y="713" width="160" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="YY1-Rx-SHE"/>
+                                    <constraint firstAttribute="width" constant="160" id="YY1-Rx-SHE"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="hLd-Jf-kVN"/>
                                     <constraint firstAttribute="height" constant="30" id="n5T-ti-H9z"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="White">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
