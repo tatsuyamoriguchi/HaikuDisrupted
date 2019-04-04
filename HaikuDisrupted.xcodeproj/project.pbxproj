@@ -12,7 +12,6 @@
 		8C5BBBD1224BDE2F00EBE263 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5BBBD0224BDE2F00EBE263 /* WordsTableViewController.swift */; };
 		8C5BBBD4224BDEC900EBE263 /* Words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C5BBBD2224BDEC900EBE263 /* Words.xcdatamodeld */; };
 		8C5BBBF7224BE5F100EBE263 /* PreloadedWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C5BBBF6224BE5F100EBE263 /* PreloadedWords.plist */; };
-		8C5C578A2255A6D0003A363C /* pocke_sound_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C5C57892255A6CF003A363C /* pocke_sound_logo.jpg */; };
 		8C61B5382253F6A700B3235B /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61B5372253F6A700B3235B /* ImageResizing.swift */; };
 		8C723FD222475F7D0004D601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C723FD122475F7D0004D601 /* AppDelegate.swift */; };
 		8C723FD722475F7D0004D601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C723FD522475F7D0004D601 /* Main.storyboard */; };
@@ -33,7 +32,6 @@
 		8C5BBBD0224BDE2F00EBE263 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		8C5BBBD3224BDEC900EBE263 /* Words.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Words.xcdatamodel; sourceTree = "<group>"; };
 		8C5BBBF6224BE5F100EBE263 /* PreloadedWords.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PreloadedWords.plist; sourceTree = "<group>"; };
-		8C5C57892255A6CF003A363C /* pocke_sound_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pocke_sound_logo.jpg; sourceTree = "<group>"; };
 		8C61B5372253F6A700B3235B /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
 		8C723FCE22475F7D0004D601 /* HaikuDisrupted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaikuDisrupted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C723FD122475F7D0004D601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 		8C723FD022475F7D0004D601 /* HaikuDisrupted */ = {
 			isa = PBXGroup;
 			children = (
-				8C5C57892255A6CF003A363C /* pocke_sound_logo.jpg */,
 				8C723FD122475F7D0004D601 /* AppDelegate.swift */,
 				8C1F29B12253248F005824FD /* Audio */,
 				8C723FD522475F7D0004D601 /* Main.storyboard */,
@@ -175,7 +172,6 @@
 				8C5BBBF7224BE5F100EBE263 /* PreloadedWords.plist in Resources */,
 				8CC937B522530C1F008B87D2 /* Assets.xcassets in Resources */,
 				8C723FD722475F7D0004D601 /* Main.storyboard in Resources */,
-				8C5C578A2255A6D0003A363C /* pocke_sound_logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

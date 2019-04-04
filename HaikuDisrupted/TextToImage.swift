@@ -44,6 +44,20 @@ class TextToImage: UIViewController {
         
         text.draw(in: rect, withAttributes: textFontAttributes)
         
+        let appNameText = "Accidental Zen Moment from Haiku Disrupted iOS App"
+        let appNameCGPoint = CGPoint(x: 3, y: 3)
+        let appNameRect = CGRect(origin: appNameCGPoint, size: image.size)
+        
+        let textFontSizeForAppName = imageFactor / 2
+        let textFontForAppName = UIFont(name: "Papyrus", size: CGFloat(textFontSizeForAppName))!
+        let textFontAttributesForAppName = [
+            NSAttributedString.Key.font: textFontForAppName,
+            NSAttributedString.Key.foregroundColor: textColor,]
+        as [NSAttributedString.Key : Any]
+        
+        appNameText.draw(in: appNameRect, withAttributes: textFontAttributesForAppName)
+        
+        
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         

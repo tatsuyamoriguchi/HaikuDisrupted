@@ -382,7 +382,7 @@ class HaikuViewController: UIViewController, NSFetchedResultsControllerDelegate,
         
         CGRectToProcess = bgImage.contentClippingRect
         
-        haikuImage = TextToImage().textToImage(textColorType: textColor ?? .white, drawText: todaysHaiku ?? "ERROR No Haiku", inImage: imageToProcess!, atPoint: CGPoint(x: 10, y: 100))
+        haikuImage = TextToImage().textToImage(textColorType: textColor ?? .white, drawText: todaysHaiku ?? "ERROR No Haiku", inImage: imageToProcess!, atPoint: CGPoint(x: 10, y: 120))
         //bgImage.image = haikuImage
         
         

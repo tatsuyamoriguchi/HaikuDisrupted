@@ -45,9 +45,7 @@ class AddWordViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
                 
             case "toAddWordSegue":
                 print("Add a new word.")
-                /*guard let _context = managedObjectContext else {   return  }
-                
- */
+                //guard let _context = managedObjectContext else {   return  }
 
                 //let newWord = NSManagedObject(entity: Word?, insertInfo: context)
                 let entity = NSEntityDescription.entity(forEntityName: "Word", in: context)
@@ -56,7 +54,9 @@ class AddWordViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
                 
                 //let selectedType = pickerView(typePicker, titleForRow: selectedRow, forComponent: 0)
                
+                if selectedType == nil { selectedType = "verb" } // Default value for a word type to add
                 newWord.setValue(selectedType, forKey: "type")
+                print("selectedType to Add: \(selectedType)")
                 
                 
                 
@@ -64,9 +64,14 @@ class AddWordViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
                 
                 word?.word = wordTextField.text
                 //let selectedType = pickerView(typePicker, titleForRow: selectedRow, forComponent: 0)
-                // BUG: The following line assigns a wrong type or nil
-                word?.type = selectedType
+                // Since UIPickerView doesn't return a pre-set/default value
+                // To avoid a BUG: The following line assigns a wrong type or nil
+                if selectedType == nil {
+                  word?.type = word?.type
+                } else { word?.type = selectedType }
 
+               
+                //print("selectedType to Edit: \(selectedType)")
                 
                 /*            // if updating word data
                  word?.word = wordTextField.text
@@ -92,7 +97,8 @@ class AddWordViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         self.typePicker.delegate = self
         self.typePicker.dataSource = self
         
-   
+        //print("word.word : word.type to Edit: \(word?.word) : \(word?.type)")
+        
         // Check segueID to display button's label text 
         if segueID == "toAddWordSegue" {
             buttonLabel.setTitle("Add a Word", for: .normal)
@@ -109,12 +115,7 @@ class AddWordViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
         // Check the type of the word to edit for Picker
         for ty in types {
-            /*
-             if ty == selectedWordType {
-             selectedRow = row
-             break;
-             }
-             */
+            
             if ty == word?.type {
                 selectedRow = row
                 break;
@@ -122,9 +123,9 @@ class AddWordViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             row += 1
             
         }
- 
+        
         typePicker.selectRow(selectedRow, inComponent: 0, animated: false)
-      
+        
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {

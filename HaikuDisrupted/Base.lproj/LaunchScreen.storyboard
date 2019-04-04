@@ -64,10 +64,10 @@
                                     <color key="titleColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haiku Disrupted &quot;Create Random Zen Moments&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYM-L9-8Gs">
-                                <rect key="frame" x="40" y="184" width="334" height="74.333333333333314"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="24"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haiku Disrupted &quot;Create Accidental Zen Moments&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYM-L9-8Gs">
+                                <rect key="frame" x="20" y="184" width="374" height="153"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Availabe at the App Store for iOS - Brought you by Becko's Inc. Irvine, California, U.S.A." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCr-h8-Wsn">
@@ -79,24 +79,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pocke_sound_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HIQ-ZR-hLW">
                                 <rect key="frame" x="103" y="64" width="209" height="40"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="koi-color180" translatesAutoresizingMaskIntoConstraints="NO" id="apn-4A-mLD">
-                                <rect key="frame" x="149.66666666666666" y="574" width="114.99999999999997" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="MVI-f2-nqx"/>
-                                    <constraint firstAttribute="width" constant="115" id="bvf-BK-uof"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RCr-h8-Wsn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="2CC-al-PwC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UYM-L9-8Gs" secondAttribute="trailing" constant="20" id="6Zl-F9-uqh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lhr-5n-imm" secondAttribute="bottom" id="7cT-cc-wCo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HIQ-ZR-hLW" secondAttribute="trailing" constant="102" id="8gC-YL-zIo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wb9-Wv-uoT" secondAttribute="trailing" constant="20" id="Abo-qb-Vf3"/>
-                            <constraint firstItem="UYM-L9-8Gs" firstAttribute="top" secondItem="wb9-Wv-uoT" secondAttribute="bottom" constant="20" id="EUe-gQ-9SW"/>
+                            <constraint firstItem="UYM-L9-8Gs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EoE-oz-WUq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lhr-5n-imm" secondAttribute="trailing" constant="35" id="GGg-yD-WtB"/>
                             <constraint firstItem="wb9-Wv-uoT" firstAttribute="top" secondItem="HIQ-ZR-hLW" secondAttribute="bottom" constant="20" id="J4a-Dz-uWl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UYM-L9-8Gs" secondAttribute="trailing" constant="40" id="Ln2-pi-YGH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HKV-Qq-5Gi" secondAttribute="trailing" constant="20" id="NDV-cb-AW8"/>
                             <constraint firstItem="HKV-Qq-5Gi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="NQb-BJ-6Lc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RCr-h8-Wsn" secondAttribute="trailing" constant="40" id="Q7O-BO-dEk"/>
@@ -105,13 +98,11 @@
                             <constraint firstItem="Pa5-94-Chk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="WXz-tu-SJc"/>
                             <constraint firstItem="Pa5-94-Chk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="e1t-1C-Qz4"/>
                             <constraint firstItem="wb9-Wv-uoT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hbB-VP-QrT"/>
-                            <constraint firstItem="UYM-L9-8Gs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="hxP-tl-cip"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lhr-5n-imm" secondAttribute="trailing" constant="35" id="sQg-Px-vqP"/>
+                            <constraint firstItem="UYM-L9-8Gs" firstAttribute="top" secondItem="wb9-Wv-uoT" secondAttribute="bottom" constant="20" id="t8V-Tz-bcp"/>
                             <constraint firstItem="HIQ-ZR-hLW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tZF-8C-v0r"/>
-                            <constraint firstItem="RCr-h8-Wsn" firstAttribute="top" secondItem="apn-4A-mLD" secondAttribute="bottom" constant="30" id="uVx-TI-85Z"/>
                             <constraint firstItem="Pa5-94-Chk" firstAttribute="top" secondItem="RCr-h8-Wsn" secondAttribute="bottom" constant="20" id="uuJ-Cy-6Mb"/>
                             <constraint firstItem="wb9-Wv-uoT" firstAttribute="top" secondItem="HKV-Qq-5Gi" secondAttribute="bottom" constant="20" id="xFg-xj-IJ6"/>
-                            <constraint firstItem="apn-4A-mLD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xTz-9L-G2F"/>
                             <constraint firstItem="HKV-Qq-5Gi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xkv-Ci-gUq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -120,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988.125" y="373.94366197183098"/>
+            <point key="canvasLocation" x="986.95652173913049" y="373.66071428571428"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="acZ-rH-VUz">
@@ -144,7 +135,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="koi-color180" width="180" height="180"/>
         <image name="pocke_sound_logo" width="88" height="31"/>
         <image name="voices" width="30" height="30"/>
     </resources>
